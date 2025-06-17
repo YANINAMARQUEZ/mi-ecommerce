@@ -1,0 +1,9 @@
+.image-slider {
+    max-width: 20%;
+    margin: auto;
+}
+
+.image-slider img {
+    max-height: 400px;
+    object-fit: cover;
+}

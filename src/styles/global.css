@@ -1,0 +1,53 @@
+
+/* 🏷️ Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🎨 Fondo y tipografía */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;  /* ✅ Fondo claro y moderno */
+    color: #333;  /* ✅ Texto legible */
+}
+
+/* 📌 Contenedor principal */
+.app-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🛍️ Estilos generales de las tarjetas de productos */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* 🖼️ Imágenes dentro de las tarjetas */
+.card-img-top {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+/* 🔹 Botón principal */
+.btn-success {
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,27 @@
+.cart-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.item-info {
+    margin-left: 15px;
+}
+
+.empty-cart {
+    font-style: italic;
+    color: #888;
+}

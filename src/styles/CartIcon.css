@@ -1,0 +1,21 @@
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cart-count {
+    background-color: red;
+    color: rgb(49, 20, 179);
+    font-size: 14px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
