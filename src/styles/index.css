@@ -1,5 +1,12 @@
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+  overflow-x: hidden;         /* Evita cortes horizontales */
+  min-height: 100dvh;         /* Altura dinámica en móviles */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
