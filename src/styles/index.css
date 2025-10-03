@@ -10,3 +10,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  img, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .container, .section, .card {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  button, .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
