@@ -87,3 +87,6 @@ body {
     padding: 0 1rem;
   }
 }
+main {
+  padding-top: 80px;
+}
