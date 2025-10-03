@@ -51,3 +51,39 @@ body {
 .btn-success:hover {
     background-color: #218838;
 }
+/* 📱 Adaptabilidad móvil */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .card {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .card-img-top {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .btn-success {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  p, .card-text {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
