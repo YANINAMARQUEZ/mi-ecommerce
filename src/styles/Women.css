@@ -51,3 +51,8 @@
 .btn-primary:hover {
     background-color: #d81b60;
 }
+main {
+  padding-top: 80px; /* Ajusta según la altura del header */
+}
+
+
