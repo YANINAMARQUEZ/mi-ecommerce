@@ -24,7 +24,7 @@ const Headers: React.FC<HeadersProps> = ({ cartCount }) => {
             alt="Logo ZapasTop"
             style={{ height: 40, marginRight: 10 }}
           />
-          <span className="fs-5 fw-bold text-dark">E-COMERCE</span>
+          <span className="fs-5 fw-bold text-dark">Librería Eliana</span>
         </Link>
 
         {/* Botón responsive hamburguesa */}
