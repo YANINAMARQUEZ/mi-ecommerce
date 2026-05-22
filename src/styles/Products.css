@@ -1,0 +1,25 @@
+.products-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.product-grid {
+    display: flex;  /* ✅ Usa Flexbox para alineación horizontal */
+    gap: 20px;  /* 📌 Espaciado entre productos */
+    overflow-x: auto;  /* 🚀 Permite desplazamiento horizontal si hay muchos productos */
+    padding: 10px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 50%;
+    max-height: 150px;
+    object-fit: cover;
+}

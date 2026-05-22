@@ -1,0 +1,53 @@
+.promo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffebee;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    animation: pulse 1.5s infinite;  /* ✅ Efecto sutil de resaltado */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+.promo-img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.promo-text {
+    flex: 1;
+    text-align: center;
+}
+
+.promo-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.promo-text p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53935;
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #ff4081;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #d81b60;
+}

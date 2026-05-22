@@ -1,0 +1,61 @@
+/* 🏷️ Contenedor general del producto */
+.product-container {
+    max-width: 240px;  /* ✅ Tamaño más compacto */
+    width: 100%;
+    margin: auto;
+}
+
+/* 🏷️ Tarjeta del producto */
+.card {
+    max-width: 240px;  /* ✅ Reduce el tamaño del contenedor de cada tarjeta */
+    border-radius: 12px;  /* ✅ Bordes suaves */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);  /* ✅ Sombra profesional */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* 🎯 Efecto al pasar el mouse */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* 🖼️ Imágenes */
+.card-img-top {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 8px;  /* ✅ Bordes redondeados para suavizar la imagen */
+}
+
+/* 📌 Cuerpo de la tarjeta */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+/* 🔹 Títulos */
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* 💰 Precios */
+.card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+/* 🛍️ Botón */
+.btn-success {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #28a745;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #218838;  /* ✅ Cambio de color sutil al pasar el mouse */
+}

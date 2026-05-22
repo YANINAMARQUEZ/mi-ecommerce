@@ -1,0 +1,139 @@
+.headers-container {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color:rgb(15, 49, 85); /* 🔥 Azul profesional */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* ✅ Fija el header arriba */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 🌟 Agrega profundidad */
+    main {
+  padding-top: 80px; /* Ajusta según la altura del header */
+}
+
+}
+
+.categories {
+    display: flex;
+    gap: 40px; /* 📌 Más espacio entre enlaces */
+}
+
+.categories a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.categories a:hover {
+    background:rgb(95, 70, 124); /* 🎨 Efecto hover */
+    transform: scale(1.05); /* 🚀 Hace crecer los enlaces al pasar el mouse */
+}
+
+.cart-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.payment-button {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+    .nav-container {
+    background-color:rgb(173, 39, 122);  /* ✅ Color celeste */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.payment-button {
+    background-color: #fff;  /* ✅ Fondo blanco */
+    color: #000;  /* ✅ Texto negro para buen contraste */
+    border: 1px solid #000;  /* ✅ Borde negro para que se vea claro */
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+.nav-link {
+    background-color: #fff;  /* ✅ Fondo blanco */
+    color: #000;  /* ✅ Texto negro para buen contraste */
+    border: 1px solid #000;  /* ✅ Borde negro para visibilidad */
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@media (max-width: 768px) {
+  .headers-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .categories {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .categories a {
+    font-size: 16px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .cart-container {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .cart-icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .payment-button {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .nav-container {
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+}
+
