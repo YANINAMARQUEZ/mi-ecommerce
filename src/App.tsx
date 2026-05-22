@@ -5,7 +5,7 @@ import Checkout from "./componentes/Checkout";
 import Footer from "./componentes/Footer";
 import NotFound from "./componentes/NotFound";
 import Cartulina from "./pages/Cartulina";
-import Cuaderno from "./componentes/cuaderno";
+import Cuaderno from "./componentes/Cuaderno";
 import Carpetas from "./pages/Carpetas";
 import CartIcon from "./componentes/CartIcon";
 import { useState } from "react";
