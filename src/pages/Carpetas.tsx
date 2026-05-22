@@ -4,16 +4,16 @@ import { Link, useNavigate } from "react-router-dom";
 
 
 const carpetasProducts = [
-    { id: 1, name: "carpeta con lomo", price: "$10.000", img: "/carpetaconlomo.jpeg", brand: "carpeta" },
-    { id: 2, name: "carpeta con anillo", price: "$6.000", img: "/carpetaanillo.jpeg", brand: "carpeta" },
-    { id: 3, name: "carpeta plastica", price: "$7.000", img: "/carpetaplastica.jpeg", brand: "carpeta" },
+    { id: 1, name: "carpeta con lomo", price: "$6,300", img: "/carpetaconlomo.jpeg", brand: "carpeta" },
+    { id: 2, name: "carpeta con anillo", price: "$5.000", img: "/carpetaanillo.jpeg", brand: "carpeta" },
+    { id: 3, name: "carpeta plastica", price: "$5.000", img: "/carpetaplastica.jpeg", brand: "carpeta" },
     { id: 4, name: "carpeta colgante", price: "$1.500", img: "/carpetacolgante.jpeg", brand: "carpeta" },
     { id: 6, name: "carpeta oficina", price: "2.500", img: "/carpeta oficina.jpeg", brand: "carpeta" },
     { id: 7, name: "carpeta a4", price: "$4.200", img: "/carpeta a4.jpeg", brand: "carpeta" },
     { id: 8, name: "anillo chico", price: "$200", img: "/anillochico.jpeg", brand: "carpeta" },
-    { id: 9, name: "anillo grande", price: "$500", img: "/anillogrande.jpeg", brand: "carpeta" },
+    { id: 9, name: "anillo grande", price: "$800", img: "/anillogrande.jpeg", brand: "carpeta" },
     { id: 10, name: "folo chico", price: "$200", img: "/folio chico.jpeg", brand: "carpeta" },
-    { id: 11, name: "folio grande", price: "$300", img: "/foliogrande.jpeg", brand: "carpeta" },
+    { id: 11, name: "folio a4 oficio", price: "$300", img: "/foliogrande.jpeg", brand: "carpeta" },
     { id: 12, name: "caratula gruesa", price: "$1.600", img: "/caratula gruesa.jpeg", brand: "carpeta" },
     { id: 14, name: "caratula fina", price: "$1.200", img: "/caratula fina.jpeg", brand: "carpeta" },
     { id: 15, name: "carpeta oferta", price: "$10.000", img: "/carpetaanillo.jpeg", brand: "carpeta" },
